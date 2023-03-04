@@ -11,8 +11,8 @@ body{
 }
 
 .main-width{
-    width: 1280px;
-    max-width: 95%;
+    width: 100%;
+    max-width: 100%;
     margin: o auto;
     padding: 0px 20px;
 }
@@ -21,14 +21,14 @@ body{
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    background: url(../img/IMG_6957.jpg) ; 
+    background: url(../img/IMG_1862.jpg) ; 
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
 header{
-    padding: 30px 0 30px;
+    padding: 5px 0 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,17 +59,19 @@ nav .nav-list {
 
 nav .nav-list li {
     display: inline-block;
+    letter-spacing: 5px;
 }
+
 nav .nav-list li a{
     display: inline-block;
     color: rgb(255, 255, 255);
-    margin-left: 50px;
+    margin-left: 170px;
     font-size: 20px;
     font-weight: 500;
 }
 
 nav .nav-list li:not(:last-child) a:hover{
-    color:black;
+    color:orange;
     transition: .3s;
 }
 
@@ -80,18 +82,19 @@ nav .nav-list li.btn a{
     padding: 2px;
     border-radius: 30px;
     line-height: 1.3;
-    color: black;
+    color: orange;
     font-weight: 500;
 }
 
 nav .nav-list li.btn:hover a{
-    background: white;
-    border: 2px solid transparent;
+    background: orange;
+    border: 2px solid grey;
     transition: .4s;
+    color: grey;
 }
 
 .container {
-    padding-top: 190px;
+    padding-top: 175px;
 }
 
 .container .hero-text{
@@ -142,7 +145,7 @@ span{
 
 .social a:hover{
     transform: scale(1.1);
-    background: red;
+    background: grey;
     transition: .4s;
 }
 
@@ -153,21 +156,20 @@ span{
     font-weight: 500;
     line-height: 25px;
     padding: 8px 30px;
-    border: 2px solid red;
+    border: 2px solid grey;
     border-radius: 30px;
     cursor: pointer;
 }
 
 .container .hero-text button:hover{
     background: transparent;
-    border: 2px solid red;
+    border: 2px solid orange;
     color: #eee;
     transition: .4s;
 }
 
 .bottom{
     margin-top: 245px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
-
 
