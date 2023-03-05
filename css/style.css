@@ -59,13 +59,13 @@ nav .nav-list {
 
 nav .nav-list li {
     display: inline-block;
-    letter-spacing: 5px;
 }
 
 nav .nav-list li a{
     display: inline-block;
     color: rgb(255, 255, 255);
-    margin-left: 170px;
+    text-align: center;
+    margin-left: 210px;
     font-size: 20px;
     font-weight: 500;
 }
