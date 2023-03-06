@@ -150,7 +150,6 @@ span{
 }
 
 .container .hero-text button{
-    color: #eee;
     background: orange;
     font-size: 17px;
     font-weight: 500;
@@ -159,6 +158,9 @@ span{
     border: 2px solid grey;
     border-radius: 30px;
     cursor: pointer;
+}
+.container .hero-text button a{
+    color: #eee;
 }
 
 .container .hero-text button:hover{
@@ -173,3 +175,83 @@ span{
     padding-bottom: 10px;
 }
 
+.about{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(black,grey);
+    padding: 50px 15px;
+}
+
+.about img{
+    height: 800px; 
+    padding: 20px;
+    border-radius: 50px;
+    border: 20px;
+    background-color: grey;
+    
+}
+
+.about-text{
+    width: 600px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 500px;
+}
+
+.main{
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.about-text h2{
+    text-align: center;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: #eee;
+}
+
+.about-text h5{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: blueviolet;
+}
+
+.about-text p{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #eee;
+}
+
+button{
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    border: 3px solid transparent;
+    border-radius: 30px;
+    padding: 10px 10px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 3px solid;
+    cursor: pointer;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn a{
+    color: #eee;
+}
