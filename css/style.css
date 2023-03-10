@@ -31,7 +31,7 @@ header{
     padding: 5px 0 5px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
@@ -191,13 +191,7 @@ span{
     
 }
 
-.about-text{
-    width: 100%;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-right: 500px;
-}
+
 
 .main{
     width: 100%;
@@ -205,8 +199,15 @@ span{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     
+}
+
+.about-text{
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .about-text h2{
@@ -257,26 +258,26 @@ button:hover{
 }
 
 @media only screen and (max-width: 768px) {
+    
     .main {
     flex-direction: column;
     text-align: center;
     }
     .about-text h2{
-        width:180%;
-        text-align: center;
+        width:100%;
+        
     }
     .about-text h5{
-        width:180%;
-        text-align: center;
+        width:100%;
+        
     }
     .about-text p{
-        width:180%;
-        text-align: center;
+        width:100%;
+        
     }
 
     .btn2 {
-        width:180%;
-        text-align: center;
+        width:100%;
+        
     }
 }
-
