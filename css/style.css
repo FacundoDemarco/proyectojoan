@@ -28,11 +28,10 @@ body{
 }
 
 header{
-    padding: 5px 0 5px;
+    padding: 40px 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 nav .hamb {
@@ -54,18 +53,20 @@ nav .hamb span {
 }
 
 nav .nav-list {
+    display: flex;
     list-style: none;
 }
 
-nav .nav-list li {
-    display: inline-block;
+nav .nav-list li{
+    margin-right: 30px;
+}
+
+li:nth-last-child() {
+    margin-right: 0px;
 }
 
 nav .nav-list li a{
-    display: inline-block;
     color: rgb(255, 255, 255);
-    text-align: center;
-    margin-left: 210px;
     font-size: 20px;
     font-weight: 500;
 }
@@ -79,7 +80,7 @@ nav .nav-list li.btn a{
     display: inline-block;
     background: transparent;
     border: 2px solid;
-    padding: 2px;
+    padding: 2px 15px;
     border-radius: 30px;
     line-height: 1.3;
     color: orange;
