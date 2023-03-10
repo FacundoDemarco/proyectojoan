@@ -73,7 +73,7 @@ nav .nav-list li{
 @media (min-width: 768px){
     nav .nav-list li{
         margin-bottom: 0px;
-        margin-right: 30px;
+        margin-right: 80px;
     }
 }
 
@@ -189,8 +189,9 @@ span{
 }
 
 .bottom{
-    margin-top: 245px;
-    padding-bottom: 10px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
 }
 
 .about{
