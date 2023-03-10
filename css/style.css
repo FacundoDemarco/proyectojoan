@@ -183,7 +183,8 @@ span{
 }
 
 .about img{
-    height: 800px; 
+    width: 100%;
+    max-width: 400px;
     padding: 20px;
     border-radius: 50px;
     border: 20px;
@@ -257,27 +258,23 @@ button:hover{
     color: #eee;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     
     .main {
     flex-direction: column;
     text-align: center;
     }
     .about-text h2{
-        width:100%;
-        
+        width:100%;   
     }
     .about-text h5{
-        width:100%;
-        
+        width:100%;  
     }
     .about-text p{
-        width:100%;
-        
+        width:100%; 
     }
 
     .btn2 {
-        width:100%;
-        
+        width:100%;  
     }
 }
