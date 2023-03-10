@@ -54,15 +54,32 @@ nav .hamb span {
 
 nav .nav-list {
     display: flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
+    flex-direction: column;
+}
+
+@media (min-width: 768px){
+    nav .nav-list{
+        flex-direction: row;
+    }
 }
 
 nav .nav-list li{
-    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px){
+    nav .nav-list li{
+        margin-bottom: 0px;
+        margin-right: 30px;
+    }
 }
 
 li:nth-last-child() {
     margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 nav .nav-list li a{
@@ -259,7 +276,7 @@ button:hover{
     color: #eee;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     
     .main {
     flex-direction: column;
