@@ -451,13 +451,20 @@ button:hover{
     transition: var(--transition);
 }
 
+.formulario p {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
 
 
 .btn_close{
     width: 100%;
     max-width: 60px;
     text-decoration: none;
-    margin: 3px 2px;
+    margin-top: 10px;
     color: white;
     background-color: #f26250;
     padding: 1px 2px;
