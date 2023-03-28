@@ -432,11 +432,11 @@ button:hover{
 }
 
 .form--show{
-   opacity: 1;
-   pointer-events: unset;
-   transition: opacity .6s;
-   --transform: translateY(0);
-   --transition: transform .8s .8s;
+opacity: 1;
+pointer-events: unset;
+transition: opacity .6s;
+--transform: translateY(0);
+--transition: transform .8s .8s;
 }
 
 .formulario {
@@ -480,5 +480,118 @@ button:hover{
     background-color: white;
 }
 
+.contenedor {
+    width: 100%;
+    background-color: #101010;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contenedor h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    width: 100%;
+    color: violet;
+    background-color: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor .button {
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 10px 25px;
+    margin: 60px;
+    border-radius: 20px;
+    transition: transform 0.4s;
+}
+
+.contenedor .button:hover {
+    background-color: white;
+    color: brown;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.contenido {
+    color: white;
+}
+
+.card1 {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+    background-color: rgb(19, 19, 19);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card1 img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.container2 {
+    background-color: #101010;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 
+.footer {
+    background: grey;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.footer-text p{
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-iconTop a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: #f26250;
+}
+
+.footer-iconTop a:hover {
+  
+}
+
+.footer-iconTop a i{
+display: flex;
+
+font-size: 20px;
+color: #101010;
+}
