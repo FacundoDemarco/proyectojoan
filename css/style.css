@@ -585,13 +585,8 @@ transition: opacity .6s;
     background: #f26250;
 }
 
-.footer-iconTop a:hover {
-  
-}
-
 .footer-iconTop a i{
 display: flex;
-
 font-size: 20px;
 color: #101010;
 }
