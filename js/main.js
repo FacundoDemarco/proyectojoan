@@ -12,6 +12,24 @@ closeModal.addEventListener('click', (e)=>{
     modal.classList.remove('form--show');
 });
 
+const form = document.querySelector('form');
+const wrapper = document.querySelector('#formulario-wrapper');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); 
+  
+  const alerta = document.createElement('div');
+  alerta.classList.add('alerta');
+  alerta.textContent = 'Gracias por su mensaje';
+  
+  document.body.appendChild(alerta);
+
+  setTimeout(() => {
+    alerta.remove();
+  }, 3000);
+  
+});
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -21,4 +39,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
