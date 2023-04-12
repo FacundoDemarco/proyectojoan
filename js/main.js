@@ -11,3 +11,13 @@ closeModal.addEventListener('click', (e)=>{
     e.preventDefault();
     modal.classList.remove('form--show');
 });
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});

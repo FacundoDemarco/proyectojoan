@@ -559,6 +559,14 @@ transition: opacity .6s;
     flex-direction: column;
 }
 
+@media (min-width: 768px){
+    .container2{
+      flex-direction: row;
+      justify-self: center;
+      width: 100%;
+      max-width: 90%;
+  }
+  }
 
 .footer {
     background: grey;
